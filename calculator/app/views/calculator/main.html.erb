@@ -1,4 +1,6 @@
-This is <code>main.html.erb</code>. Welcome.
+This is <code>main.html.erb</code>. Welcome.<br>
+
+It's also a calculator.<br><br>
 
 <form method="post" action="/calculate">
   <input name="a">
@@ -13,4 +15,20 @@ This is <code>main.html.erb</code>. Welcome.
   <input type="submit" value="Do it">
 </form>
 <br>
-Answer: <b><%= @answer %></b>
+Answer: <b><%= @answer %></b><br><br>
+
+<!-- <form method="post" action="/calculate">
+  <select name="dropdown_2">
+    <option value="sin">sin</option>
+    <option value="cos">cos</option>
+    <option value="tan">tan</option>
+    <option value="sin^-1">sin^-1/</option>
+    <option value="cos^-1">cos^-1</option>
+    <option value="tan^-1">tan^-1</option>
+    <option value="sqrt">√</option>
+  </select>
+  <input name="b"><br>
+  <input type="submit" value="Do it">
+</form>
+<br>
+Answer: <b><%= @answer %></b> -->
